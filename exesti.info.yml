@@ -1,0 +1,10 @@
+name: "Exésti"
+description: "Exésti (è consentito) è un modulo Drupal che importa tutti i permessi della distribuzione Ouitoulía."
+package: "Ouitoulía"
+
+type: module
+core_version_requirement: ^10
+dependencies:
+  - drupal:user
+  - ouitoulia:prosopon
+  - ouitoulia:sunchronizo_prosopon

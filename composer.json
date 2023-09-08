@@ -1,0 +1,25 @@
+{
+    "name": "ouitoulia/exesti",
+    "description": "Exésti (è consentito) è un modulo Drupal che importa tutti i permessi della distribuzione Ouitoulía.",
+    "type": "drupal-module",
+    "license": "GPL-3.0-only",
+    "homepage": "https://github.com/ouitoulia/exesti",
+    "authors": [
+        {
+            "name": "Pietro Arturo Panetta",
+            "homepage":"https://www.drupal.org/u/arturopanetta",
+            "role": "Maintainer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/ouitoulia/exesti/issues",
+        "source": "https://github.com/ouitoulia/exesti"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "drupal/core-recommended": "^10",
+        "ouitoulia/prosopon": "^2",
+        "ouitoulia/sunchronizo_prosopon": "^1"
+    }
+}
