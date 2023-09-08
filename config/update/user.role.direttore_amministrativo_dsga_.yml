@@ -1,0 +1,13 @@
+langcode: it
+status: true
+dependencies:
+  config:
+    - node.type.persona
+  module:
+    - node
+id: direttore_amministrativo_dsga_
+label: 'Direttore amministrativo (DSGA)'
+weight: 5
+is_admin: null
+permissions:
+  - 'edit own persona content'

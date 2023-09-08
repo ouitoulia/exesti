@@ -1,0 +1,8 @@
+langcode: it
+status: true
+dependencies: {  }
+id: ex_docente
+label: 'Ex Docente'
+weight: 2
+is_admin: null
+permissions: {  }

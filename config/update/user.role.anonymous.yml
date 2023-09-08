@@ -1,0 +1,20 @@
+langcode: it
+status: true
+dependencies:
+  module:
+    - media
+    - search
+    - system
+    - ui_patterns_library
+_core:
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+id: anonymous
+label: 'Utente anonimo'
+weight: 0
+is_admin: false
+permissions:
+  - 'access content'
+  - 'access patterns page'
+  - 'search content'
+  - 'use advanced search'
+  - 'view media'

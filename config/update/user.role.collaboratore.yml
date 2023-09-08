@@ -1,0 +1,13 @@
+langcode: it
+status: true
+dependencies:
+  config:
+    - node.type.persona
+  module:
+    - node
+id: collaboratore
+label: Collaboratore
+weight: 5
+is_admin: null
+permissions:
+  - 'edit own persona content'

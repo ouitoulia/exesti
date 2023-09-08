@@ -1,0 +1,8 @@
+langcode: it
+status: true
+dependencies: {  }
+id: amministratore
+label: Amministratore
+weight: 7
+is_admin: true
+permissions: {  }

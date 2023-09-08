@@ -1,0 +1,20 @@
+langcode: it
+status: true
+dependencies:
+  config:
+    - node.type.persona
+  module:
+    - node
+id: amministrazione_sito
+label: 'Amministrazione sito'
+weight: 6
+is_admin: null
+permissions:
+  - 'create persona content'
+  - 'delete any persona content'
+  - 'delete own persona content'
+  - 'delete persona revisions'
+  - 'edit any persona content'
+  - 'edit own persona content'
+  - 'revert persona revisions'
+  - 'view persona revisions'

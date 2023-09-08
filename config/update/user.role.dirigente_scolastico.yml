@@ -1,0 +1,8 @@
+langcode: it
+status: true
+dependencies: {  }
+id: dirigente_scolastico
+label: 'Dirigente Scolastico'
+weight: 8
+is_admin: null
+permissions: {  }

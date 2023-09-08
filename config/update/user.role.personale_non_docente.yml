@@ -1,0 +1,13 @@
+langcode: it
+status: true
+dependencies:
+  config:
+    - node.type.persona
+  module:
+    - node
+id: personale_non_docente
+label: 'Personale non docente'
+weight: 4
+is_admin: null
+permissions:
+  - 'edit own persona content'
