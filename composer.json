@@ -19,7 +19,7 @@
     "prefer-stable": true,
     "require": {
         "drupal/core-recommended": "^10",
-        "ouitoulia/prosopon": "^2",
+        "ouitoulia/prosopon": ">=3",
         "ouitoulia/sunchronizo_prosopon": "^1"
     }
 }
