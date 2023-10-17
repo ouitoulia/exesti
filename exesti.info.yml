@@ -10,7 +10,7 @@ dependencies:
   - ouitoulia:sunchronizo_prosopon
 
 # Information added by GitHub Action packaging script on 2023-10-17
-version: '1.0.2'
+version: '1.0.3'
 project: 'Exesti'
-datestamp: 1697521760
+datestamp: 1697521803
 message: ' release script'
