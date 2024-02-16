@@ -8,8 +8,8 @@ dependencies:
   - drupal:user
   - ouitoulia:prosopon
 
-# Information added by GitHub Action packaging script on 2023-11-09
-version: '1.0.4'
+# Information added by GitHub Action packaging script on 2024-02-16
+version: '1.0.5'
 project: 'Exesti'
-datestamp: 1699546932
-message: ' fix deps'
+datestamp: 1708066066
+message: ' up ci to checkout v4'
