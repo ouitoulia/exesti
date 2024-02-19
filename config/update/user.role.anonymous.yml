@@ -3,9 +3,7 @@ status: true
 dependencies:
   module:
     - media
-    - search
     - system
-    - ui_patterns_library
 id: anonymous
 label: 'Utente anonimo'
 weight: 0

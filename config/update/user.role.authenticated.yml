@@ -3,11 +3,7 @@ status: true
 dependencies:
   module:
     - media
-    - search
     - system
-    - ui_patterns_library
-_core:
-  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
 id: authenticated
 label: 'Utente autenticato'
 weight: 1
