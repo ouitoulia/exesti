@@ -9,7 +9,7 @@ dependencies:
   - ouitoulia:prosopon
 
 # Information added by GitHub Action packaging script on 2024-02-19
-version: '1.0.6'
+version: '1.0.7'
 project: 'Exesti'
-datestamp: 1708334198
+datestamp: 1708334399
 message: ' fix wrong permission'
