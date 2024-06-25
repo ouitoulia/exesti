@@ -8,8 +8,8 @@ dependencies:
   - drupal:user
   - ouitoulia:prosopon
 
-# Information added by GitHub Action packaging script on 2024-03-02
-version: '1.0.8'
+# Information added by GitHub Action packaging script on 2024-06-25
+version: '2.0.0'
 project: 'Exesti'
-datestamp: 1709378407
-message: ' remove search permission'
+datestamp: 1719333444
+message: ' up to drupal 10.3'
