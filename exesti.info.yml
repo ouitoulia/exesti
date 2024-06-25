@@ -3,7 +3,7 @@ description: "Exésti (è consentito) è un modulo Drupal che importa tutti i pe
 package: "Ouitoulía"
 
 type: module
-core_version_requirement: ^10
+core_version_requirement: ^10 || ^11
 dependencies:
   - drupal:user
   - ouitoulia:prosopon
