@@ -1,13 +1,53 @@
 langcode: it
 status: true
 dependencies:
+  config:
+    - filter.format.bootstrap_italia_2
+    - node.type.article
+    - node.type.circolare
+    - node.type.classe
+    - node.type.documento
+    - node.type.evento
+    - node.type.finanziamento
+    - node.type.libro
+    - node.type.luogo
+    - node.type.page
+    - node.type.partner
+    - node.type.percorso_di_studio
+    - node.type.persona
+    - node.type.progetto
+    - node.type.scheda_didattica
+    - node.type.servizio
+    - node.type.struttura_organizzativa
   module:
+    - filter
     - media
+    - node
     - system
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
 id: authenticated
 label: 'Utente autenticato'
 weight: 1
 is_admin: false
 permissions:
   - 'access content'
+  - 'use text format bootstrap_italia_2'
+  - 'view article revisions'
+  - 'view circolare revisions'
+  - 'view classe revisions'
+  - 'view documento revisions'
+  - 'view evento revisions'
+  - 'view finanziamento revisions'
+  - 'view libro revisions'
+  - 'view luogo revisions'
   - 'view media'
+  - 'view own unpublished content'
+  - 'view page revisions'
+  - 'view partner revisions'
+  - 'view percorso_di_studio revisions'
+  - 'view persona revisions'
+  - 'view progetto revisions'
+  - 'view scheda_didattica revisions'
+  - 'view servizio revisions'
+  - 'view struttura_organizzativa revisions'

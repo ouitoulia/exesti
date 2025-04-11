@@ -2,12 +2,12 @@ langcode: it
 status: true
 dependencies:
   config:
-    - node.type.persona
+    - taxonomy.vocabulary.editori
   module:
-    - node
+    - taxonomy
 id: personale_tecnico
 label: 'Personale tecnico'
 weight: 5
 is_admin: null
 permissions:
-  - 'edit own persona content'
+  - 'create terms in editori'

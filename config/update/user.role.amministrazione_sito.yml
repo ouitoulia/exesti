@@ -2,19 +2,310 @@ langcode: it
 status: true
 dependencies:
   config:
+    - filter.format.bootstrap_italia_2
+    - media.type.audio
+    - media.type.document
+    - media.type.image
+    - media.type.remote_video
+    - node.type.article
+    - node.type.circolare
+    - node.type.classe
+    - node.type.documento
+    - node.type.evento
+    - node.type.finanziamento
+    - node.type.libro
+    - node.type.luogo
+    - node.type.page
+    - node.type.partner
+    - node.type.percorso_di_studio
     - node.type.persona
+    - node.type.progetto
+    - node.type.scheda_didattica
+    - node.type.servizio
+    - node.type.struttura_organizzativa
+    - taxonomy.vocabulary.amministrazione_trasparente
+    - taxonomy.vocabulary.anni_scolastici
+    - taxonomy.vocabulary.argomenti
+    - taxonomy.vocabulary.attributi_dei_luoghi
+    - taxonomy.vocabulary.autori
+    - taxonomy.vocabulary.azioni
+    - taxonomy.vocabulary.competenze
+    - taxonomy.vocabulary.cosa_serve
+    - taxonomy.vocabulary.destinatari
+    - taxonomy.vocabulary.destinazione_uso
+    - taxonomy.vocabulary.editori
+    - taxonomy.vocabulary.indirizzi_di_studio
+    - taxonomy.vocabulary.materie
+    - taxonomy.vocabulary.obblighi_di_pubblicazione
+    - taxonomy.vocabulary.ruoli_persona
+    - taxonomy.vocabulary.stato_progetti
+    - taxonomy.vocabulary.tipologia_autenticazioni
+    - taxonomy.vocabulary.tipologia_documenti
+    - taxonomy.vocabulary.tipologia_eventi
+    - taxonomy.vocabulary.tipologia_finanziamenti
+    - taxonomy.vocabulary.tipologia_incarichi
+    - taxonomy.vocabulary.tipologia_istituti
+    - taxonomy.vocabulary.tipologia_libri
+    - taxonomy.vocabulary.tipologia_licenze
+    - taxonomy.vocabulary.tipologia_luoghi
+    - taxonomy.vocabulary.tipologia_notizie
+    - taxonomy.vocabulary.tipologia_posti
+    - taxonomy.vocabulary.tipologia_progetti
+    - taxonomy.vocabulary.tipologia_servizi
+    - taxonomy.vocabulary.tipologia_strutture
+    - taxonomy.vocabulary.tipologia_supplenze
   module:
+    - entity_reference_revisions
+    - file
+    - filter
+    - media
     - node
+    - paragraphs
+    - system
+    - taxonomy
+    - toolbar
 id: amministrazione_sito
 label: 'Amministrazione sito'
 weight: 6
 is_admin: null
 permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access files overview'
+  - 'access media overview'
+  - 'access site in maintenance mode'
+  - 'access taxonomy overview'
+  - 'access toolbar'
+  - 'administer media'
+  - 'administer nodes'
+  - 'administer taxonomy'
+  - 'create article content'
+  - 'create audio media'
+  - 'create circolare content'
+  - 'create classe content'
+  - 'create document media'
+  - 'create documento content'
+  - 'create evento content'
+  - 'create finanziamento content'
+  - 'create image media'
+  - 'create libro content'
+  - 'create luogo content'
+  - 'create media'
+  - 'create page content'
+  - 'create partner content'
+  - 'create percorso_di_studio content'
   - 'create persona content'
+  - 'create progetto content'
+  - 'create remote_video media'
+  - 'create scheda_didattica content'
+  - 'create servizio content'
+  - 'create struttura_organizzativa content'
+  - 'create terms in anni_scolastici'
+  - 'create terms in argomenti'
+  - 'create terms in attributi_dei_luoghi'
+  - 'create terms in autori'
+  - 'create terms in azioni'
+  - 'create terms in competenze'
+  - 'create terms in cosa_serve'
+  - 'create terms in destinatari'
+  - 'create terms in destinazione_uso'
+  - 'create terms in editori'
+  - 'create terms in tipologia_documenti'
+  - 'create terms in tipologia_eventi'
+  - 'create terms in tipologia_finanziamenti'
+  - 'create terms in tipologia_incarichi'
+  - 'create terms in tipologia_libri'
+  - 'create terms in tipologia_luoghi'
+  - 'create terms in tipologia_posti'
+  - 'create terms in tipologia_progetti'
+  - 'create terms in tipologia_servizi'
+  - 'create terms in tipologia_strutture'
+  - 'create terms in tipologia_supplenze'
+  - 'delete any article content'
+  - 'delete any audio media'
+  - 'delete any audio media revisions'
+  - 'delete any classe content'
+  - 'delete any document media'
+  - 'delete any document media revisions'
+  - 'delete any evento content'
+  - 'delete any image media'
+  - 'delete any image media revisions'
+  - 'delete any libro content'
+  - 'delete any media'
+  - 'delete any partner content'
   - 'delete any persona content'
+  - 'delete any progetto content'
+  - 'delete any remote_video media'
+  - 'delete any remote_video media revisions'
+  - 'delete any scheda_didattica content'
+  - 'delete any struttura_organizzativa content'
+  - 'delete article revisions'
+  - 'delete circolare revisions'
+  - 'delete classe revisions'
+  - 'delete documento revisions'
+  - 'delete evento revisions'
+  - 'delete finanziamento revisions'
+  - 'delete libro revisions'
+  - 'delete luogo revisions'
+  - 'delete media'
+  - 'delete orphan revisions'
+  - 'delete own article content'
+  - 'delete own audio media'
+  - 'delete own classe content'
+  - 'delete own document media'
+  - 'delete own evento content'
+  - 'delete own image media'
+  - 'delete own libro content'
+  - 'delete own partner content'
   - 'delete own persona content'
+  - 'delete own progetto content'
+  - 'delete own remote_video media'
+  - 'delete own scheda_didattica content'
+  - 'delete page revisions'
+  - 'delete partner revisions'
+  - 'delete percorso_di_studio revisions'
   - 'delete persona revisions'
+  - 'delete progetto revisions'
+  - 'delete scheda_didattica revisions'
+  - 'delete servizio revisions'
+  - 'delete struttura_organizzativa revisions'
+  - 'delete term revisions in argomenti'
+  - 'delete term revisions in attributi_dei_luoghi'
+  - 'delete term revisions in autori'
+  - 'delete term revisions in competenze'
+  - 'delete term revisions in cosa_serve'
+  - 'delete term revisions in destinatari'
+  - 'delete term revisions in destinazione_uso'
+  - 'delete term revisions in editori'
+  - 'delete term revisions in indirizzi_di_studio'
+  - 'delete term revisions in materie'
+  - 'delete term revisions in obblighi_di_pubblicazione'
+  - 'delete term revisions in ruoli_persona'
+  - 'delete term revisions in stato_progetti'
+  - 'delete term revisions in tipologia_autenticazioni'
+  - 'delete term revisions in tipologia_documenti'
+  - 'delete term revisions in tipologia_eventi'
+  - 'delete term revisions in tipologia_finanziamenti'
+  - 'delete term revisions in tipologia_incarichi'
+  - 'delete term revisions in tipologia_istituti'
+  - 'delete term revisions in tipologia_libri'
+  - 'delete term revisions in tipologia_licenze'
+  - 'delete term revisions in tipologia_luoghi'
+  - 'delete term revisions in tipologia_notizie'
+  - 'delete term revisions in tipologia_posti'
+  - 'delete term revisions in tipologia_progetti'
+  - 'delete term revisions in tipologia_servizi'
+  - 'delete term revisions in tipologia_strutture'
+  - 'delete term revisions in tipologia_supplenze'
+  - 'delete terms in autori'
+  - 'delete terms in competenze'
+  - 'delete terms in editori'
+  - 'delete terms in tipologia_libri'
+  - 'delete terms in tipologia_supplenze'
+  - 'edit any article content'
+  - 'edit any audio media'
+  - 'edit any circolare content'
+  - 'edit any classe content'
+  - 'edit any document media'
+  - 'edit any documento content'
+  - 'edit any evento content'
+  - 'edit any finanziamento content'
+  - 'edit any image media'
+  - 'edit any libro content'
+  - 'edit any luogo content'
+  - 'edit any page content'
+  - 'edit any partner content'
+  - 'edit any percorso_di_studio content'
   - 'edit any persona content'
+  - 'edit any progetto content'
+  - 'edit any remote_video media'
+  - 'edit any scheda_didattica content'
+  - 'edit any servizio content'
+  - 'edit any struttura_organizzativa content'
+  - 'edit own article content'
+  - 'edit own audio media'
+  - 'edit own circolare content'
+  - 'edit own classe content'
+  - 'edit own document media'
+  - 'edit own documento content'
+  - 'edit own evento content'
+  - 'edit own finanziamento content'
+  - 'edit own image media'
+  - 'edit own libro content'
+  - 'edit own luogo content'
+  - 'edit own page content'
+  - 'edit own partner content'
+  - 'edit own percorso_di_studio content'
   - 'edit own persona content'
+  - 'edit own progetto content'
+  - 'edit own remote_video media'
+  - 'edit own scheda_didattica content'
+  - 'edit own servizio content'
+  - 'edit own struttura_organizzativa content'
+  - 'edit terms in autori'
+  - 'edit terms in competenze'
+  - 'edit terms in cosa_serve'
+  - 'edit terms in editori'
+  - 'edit terms in tipologia_libri'
+  - 'edit terms in tipologia_progetti'
+  - 'edit terms in tipologia_supplenze'
+  - 'revert any audio media revisions'
+  - 'revert any document media revisions'
+  - 'revert any image media revisions'
+  - 'revert any remote_video media revisions'
+  - 'revert article revisions'
+  - 'revert circolare revisions'
+  - 'revert classe revisions'
+  - 'revert evento revisions'
+  - 'revert libro revisions'
+  - 'revert luogo revisions'
+  - 'revert page revisions'
+  - 'revert partner revisions'
+  - 'revert percorso_di_studio revisions'
   - 'revert persona revisions'
-  - 'view persona revisions'
+  - 'revert progetto revisions'
+  - 'revert scheda_didattica revisions'
+  - 'revert servizio revisions'
+  - 'revert struttura_organizzativa revisions'
+  - 'update any media'
+  - 'update media'
+  - 'use text format bootstrap_italia_2'
+  - 'view all media revisions'
+  - 'view any audio media revisions'
+  - 'view any document media revisions'
+  - 'view any image media revisions'
+  - 'view any remote_video media revisions'
+  - 'view own unpublished media'
+  - 'view term revisions in amministrazione_trasparente'
+  - 'view term revisions in anni_scolastici'
+  - 'view term revisions in argomenti'
+  - 'view term revisions in attributi_dei_luoghi'
+  - 'view term revisions in autori'
+  - 'view term revisions in azioni'
+  - 'view term revisions in competenze'
+  - 'view term revisions in cosa_serve'
+  - 'view term revisions in destinatari'
+  - 'view term revisions in destinazione_uso'
+  - 'view term revisions in editori'
+  - 'view term revisions in indirizzi_di_studio'
+  - 'view term revisions in materie'
+  - 'view term revisions in obblighi_di_pubblicazione'
+  - 'view term revisions in ruoli_persona'
+  - 'view term revisions in stato_progetti'
+  - 'view term revisions in tipologia_autenticazioni'
+  - 'view term revisions in tipologia_documenti'
+  - 'view term revisions in tipologia_eventi'
+  - 'view term revisions in tipologia_finanziamenti'
+  - 'view term revisions in tipologia_incarichi'
+  - 'view term revisions in tipologia_istituti'
+  - 'view term revisions in tipologia_libri'
+  - 'view term revisions in tipologia_licenze'
+  - 'view term revisions in tipologia_luoghi'
+  - 'view term revisions in tipologia_notizie'
+  - 'view term revisions in tipologia_posti'
+  - 'view term revisions in tipologia_progetti'
+  - 'view term revisions in tipologia_servizi'
+  - 'view term revisions in tipologia_strutture'
+  - 'view term revisions in tipologia_supplenze'
+  - 'view the administration theme'
+  - 'view unpublished paragraphs'

@@ -2,12 +2,67 @@ langcode: it
 status: true
 dependencies:
   config:
+    - media.type.audio
+    - media.type.document
+    - media.type.image
+    - media.type.remote_video
+    - node.type.article
+    - node.type.evento
+    - node.type.libro
+    - node.type.page
     - node.type.persona
+    - node.type.progetto
+    - node.type.scheda_didattica
+    - taxonomy.vocabulary.competenze
+    - taxonomy.vocabulary.editori
   module:
+    - media
     - node
+    - system
+    - taxonomy
 id: personale_docente
 label: 'Personale Docente'
 weight: 3
 is_admin: null
 permissions:
+  - 'access administration pages'
+  - 'access taxonomy overview'
+  - 'create article content'
+  - 'create audio media'
+  - 'create document media'
+  - 'create evento content'
+  - 'create image media'
+  - 'create libro content'
+  - 'create media'
+  - 'create progetto content'
+  - 'create remote_video media'
+  - 'create scheda_didattica content'
+  - 'create terms in competenze'
+  - 'create terms in editori'
+  - 'delete libro revisions'
+  - 'delete media'
+  - 'delete own audio media'
+  - 'delete own document media'
+  - 'delete own image media'
+  - 'delete own remote_video media'
+  - 'delete own scheda_didattica content'
+  - 'delete progetto revisions'
+  - 'delete scheda_didattica revisions'
+  - 'edit own article content'
+  - 'edit own audio media'
+  - 'edit own document media'
+  - 'edit own evento content'
+  - 'edit own image media'
+  - 'edit own libro content'
+  - 'edit own page content'
   - 'edit own persona content'
+  - 'edit own progetto content'
+  - 'edit own remote_video media'
+  - 'edit own scheda_didattica content'
+  - 'revert evento revisions'
+  - 'revert libro revisions'
+  - 'revert progetto revisions'
+  - 'revert scheda_didattica revisions'
+  - 'update media'
+  - 'view own unpublished media'
+  - 'view the administration theme'
