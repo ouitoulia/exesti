@@ -8,8 +8,8 @@ dependencies:
   - drupal:user
   - ouitoulia:prosopon
 
-# Information added by GitHub Action packaging script on 2024-12-14
-version: '2.1.0'
+# Information added by GitHub Action packaging script on 2025-04-11
+version: '2.2.0'
 project: 'Exesti'
-datestamp: 1734135167
-message: ' fix compatibility'
+datestamp: 1744382541
+message: ' aggiornati i permessi per l'invio dei contenuti da parte del personale scolastico'
