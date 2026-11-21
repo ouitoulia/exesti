@@ -9,6 +9,6 @@ dependencies:
   - ouitoulia:prosopon
 
 # Information added by GitHub Action packaging script on 2026-11-21
-version: '2.3.0'
+version: '2.3.1'
 project: 'Exesti'
-datestamp: 1795268775
+datestamp: 1795272120
