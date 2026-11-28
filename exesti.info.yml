@@ -8,7 +8,7 @@ dependencies:
   - drupal:user
   - ouitoulia:prosopon
 
-# Information added by GitHub Action packaging script on 2026-11-21
-version: '2.3.1'
+# Information added by GitHub Action packaging script on 2026-11-28
+version: '2.4.0'
 project: 'Exesti'
-datestamp: 1795272120
+datestamp: 1795875653
